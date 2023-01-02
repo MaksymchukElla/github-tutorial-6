@@ -648,14 +648,13 @@ position: relative;
 
 .email-field-label {
   position: absolute;
-  
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6); 
 }
 
 .mailing-button {
@@ -675,7 +674,18 @@ position: relative;
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  
+}
+
+.mailing-button :hover,
+.mailing-button :focus {
   cursor: pointer;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+  
+.mailing-user {
+  display: flex;
 }
 
 
