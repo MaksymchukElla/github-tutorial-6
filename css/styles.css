@@ -640,6 +640,7 @@ position: relative;
   position: relative;
   width: 358px;
   height: 50px;
+  margin-right: 12px;
   background: #2F303A;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -674,12 +675,12 @@ position: relative;
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mailing-button :hover,
 .mailing-button :focus {
-  cursor: pointer;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -687,7 +688,6 @@ position: relative;
 .mailing-user {
   display: flex;
 }
-
 
 .blok-mailing {
   margin-left: 93px;
@@ -958,6 +958,18 @@ position: relative;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+
+.checkbox-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.checkbox-link {
+  color: var(--accent-color);
 }
 
 .form-submit {
