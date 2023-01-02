@@ -627,6 +627,7 @@ position: relative;
 }
 
 .mailing {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -637,9 +638,15 @@ position: relative;
 
 .mailing-e-mail {
   position: relative;
+  width: 358px;
+  height: 50px;
+  background: #2F303A;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
 }
 
-.e-mail-text {
+.email-field-label {
   position: absolute;
   width: 47px;
   height: 20px;
@@ -650,6 +657,35 @@ position: relative;
   align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.mailing-button {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mailing-button::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background-image: url(../images/icon\ send.png);
+  background-size: contain;
+}
+
+.blok-mailing {
+  margin-left: 93px;
 }
 
 /* Портфоліо */
