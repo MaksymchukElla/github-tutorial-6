@@ -658,6 +658,17 @@ position: relative;
   color: rgba(255, 255, 255, 0.6); 
 }
 
+.mailing-e-mail::placeholder {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .mailing-button {
   width: 200px;
   height: 50px;
