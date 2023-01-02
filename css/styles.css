@@ -648,24 +648,28 @@ position: relative;
 
 .email-field-label {
   position: absolute;
-  width: 47px;
-  height: 20px;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  /* color: rgba(255, 255, 255, 0.6); */
 }
 
 .mailing-button {
   width: 200px;
   height: 50px;
+  padding: 10px 10px 10px 28px;
+  gap: 10px;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  display: flex;
+  align-items: center;
   text-align: center;
+  fill: var(--primary-white-color);
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   background: #2196F3;
@@ -674,15 +678,6 @@ position: relative;
   cursor: pointer;
 }
 
-.mailing-button::after {
-  content: "";
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
-  background-image: url(../images/icon\ send.png);
-  background-size: contain;
-}
 
 .blok-mailing {
   margin-left: 93px;
