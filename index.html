@@ -399,12 +399,12 @@
             <div class="mailing-user">
               <label
                 class="email-field-label"
-                for="user-email"></label>
+                for="user-e-mail"></label>
               <input
                 class="mailing-e-mail"
-                id="user-email"
+                id="user-e-mail"
                 type="email"
-                name="user-email"
+                name="user-e-mail"
                 placeholder="E-mail"/>
               <button class="mailing-button" type="button">
                 Підписатися
@@ -471,18 +471,12 @@
             </svg>
           </div>
           <label class="form-field-label" for="user-comment">Коментар</label>
-          <textarea
-            class="form-field-textarea"
-            name="user-comment"
-            id="user-comment"
-            placeholder="Введіть текст">
-          </textarea>
-          <div class="form-field-checkbox">
-            <input id="terms-checkbox" type="checkbox" name="terms-checkbox" />
-            <label class="checkbox-text" for="terms-checkbox"
-              >Погоджуюся з розсилкою та приймаю
-              <a class="checkbox-link" href="#">Умови договору</a></label>
-          </div>
+          <textarea class="form-field-textarea" id="user-comment" name="user-comment" placeholder="Введіть текст"></textarea>
+            <label class="field"><input class="checkbox" type="checkbox" name="terms-checkbox" />
+              <span class="icon-check"></span>
+               Погоджуюся з розсилкою та приймаю
+              <a class="checkbox-link" href="#">Умови договору</a>
+            </label>
           <button class="form-submit" type="submit">Відправити</button>
         </form>
       </div>
